@@ -4,6 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/mariasoledadee/sistema_matricula/issues"
   },
-  "homepage": "https://github.com/mariasoledadee/sistema_matricula#readme"
+  "homepage": "https://github.com/mariasoledadee/sistema_matricula#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
